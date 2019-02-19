@@ -1,0 +1,4 @@
+/home/user/CLionProjects/async_client-server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/user/CLionProjects/async_client-server/cmake-build-debug/CMakeFiles/async_client.dir
+/home/user/CLionProjects/async_client-server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/user/CLionProjects/async_client-server/cmake-build-debug/CMakeFiles/async_server.dir

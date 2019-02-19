@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/shared_memory/main.cpp
+boost/interprocess/managed_shared_memory.hpp
+-
+boost/interprocess/containers/vector.hpp
+-
+boost/interprocess/allocators/allocator.hpp
+-
+string
+-
+cstdlib
+-
+

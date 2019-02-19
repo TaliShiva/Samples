@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/mtqsort.dir/main.cpp.o  -o mtqsort 

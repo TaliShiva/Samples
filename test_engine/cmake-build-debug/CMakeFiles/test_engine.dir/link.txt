@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -O2 -g -fpermissive -Wall -DFIO_EXTERNAL_ENGINE -g  -shared -Wl,-soname,libtest_engine.so -o libtest_engine.so CMakeFiles/test_engine.dir/main.cpp.o 

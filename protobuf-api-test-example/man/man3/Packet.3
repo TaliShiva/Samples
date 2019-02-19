@@ -1,0 +1,61 @@
+.TH "Packet" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Packet \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <packet\&.h>\fP
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "::std::string \fBbuildPacket\fP (const ::std::string &data)"
+.br
+.ti -1c
+.RI "::std::string \fBparsePacket\fP (const ::std::string &packet)"
+.br
+.ti -1c
+.RI "static size_t \fBgetBodySizeFromPacket\fP (const ::std::string &packet)"
+.br
+.ti -1c
+.RI "static bool \fBpacketIsFull\fP (const ::std::string &packet)"
+.br
+.in -1c
+.SS "Статические открытые данные"
+
+.in +1c
+.ti -1c
+.RI "static const size_t \fBHEADER_BODY_LENGTH_SIZE\fP = 10"
+.br
+.ti -1c
+.RI "static const size_t \fBHEADER_SIZE\fP = \fBHEADER_BODY_LENGTH_SIZE\fP"
+.br
+.ti -1c
+.RI "static const size_t \fBMAX_PACKET_SIZE\fP = 65536"
+.br
+.in -1c
+.SH "Методы"
+.PP 
+.SS "std::string Packet::buildPacket (const ::std::string & data)\fC [static]\fP"
+
+.SS "size_t Packet::getBodySizeFromPacket (const ::std::string & packet)\fC [static]\fP"
+
+.SS "bool Packet::packetIsFull (const ::std::string & packet)\fC [static]\fP"
+
+.SS "std::string Packet::parsePacket (const ::std::string & packet)\fC [static]\fP"
+
+.SH "Данные класса"
+.PP 
+.SS "const size_t Packet::HEADER_BODY_LENGTH_SIZE = 10\fC [static]\fP"
+
+.SS "const size_t Packet::HEADER_SIZE = \fBHEADER_BODY_LENGTH_SIZE\fP\fC [static]\fP"
+
+.SS "const size_t Packet::MAX_PACKET_SIZE = 65536\fC [static]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

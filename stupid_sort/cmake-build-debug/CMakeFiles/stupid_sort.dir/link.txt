@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libstupid_sort.so -o libstupid_sort.so CMakeFiles/stupid_sort.dir/main.cpp.o 

@@ -1,0 +1,34 @@
+syntax = "proto2";
+package gorynych.protobuf;
+
+message Report {
+
+    enum Report_Type {
+        REPORT_START = 0;
+        REPORT_STOP = 1;
+        REPORT_STATISTICS = 2;
+    }
+    required Report_Type type = 1;
+
+    message Report_Statistics {
+        required fixed32 sd_count = 1;
+        required fixed32 sd_chain_count = 2;
+        required fixed64 average_size_sd = 3;
+        required fixed64 average_size_sd_chain = 4;
+        required fixed64 average_latency_sd = 5;
+        required fixed64 average_latency_sd_chain = 6;
+        required fixed64 timestamp = 7;
+    }
+    optional Report_Statistics report_statistics = 2;
+
+    message Report_Start {
+        required fixed64 start_time = 1;
+    }
+    optional Report_Start report_start = 3;
+
+    message Report_Stop {
+        required fixed64 stop_time = 1;
+    }
+    optional Report_Stop report_stop = 4;
+
+}

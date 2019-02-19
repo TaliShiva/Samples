@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/async_client-server/main.cpp
+iostream
+-
+ctime
+-
+boost/asio.hpp
+-
+boost/shared_ptr.hpp
+-
+boost/bind.hpp
+-
+boost/enable_shared_from_this.hpp
+-
+

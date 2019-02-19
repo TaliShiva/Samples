@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/index_descriptor_sort/main.cpp
+iostream
+-
+stdio.h
+-
+fcntl.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/ioctl.h
+-
+linux/fs.h
+-
+unistd.h
+-
+

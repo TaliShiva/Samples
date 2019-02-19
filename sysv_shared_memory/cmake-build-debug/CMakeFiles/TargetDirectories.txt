@@ -1,0 +1,3 @@
+/home/user/CLionProjects/sysv_shared_memory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/user/CLionProjects/sysv_shared_memory/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/user/CLionProjects/sysv_shared_memory/cmake-build-debug/CMakeFiles/sysv_shared_memory.dir

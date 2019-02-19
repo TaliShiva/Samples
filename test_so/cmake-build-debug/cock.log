@@ -1,0 +1,115 @@
+execve("./test_so", ["./test_so"], [/* 59 vars */]) = 0
+brk(NULL)                               = 0xc13000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a0f80000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=190461, ...}) = 0
+mmap(NULL, 190461, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f93a0f51000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f93a0b59000
+mprotect(0x7f93a0b5c000, 2093056, PROT_NONE) = 0
+mmap(0x7f93a0d5b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f93a0d5b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\301\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1598928, ...}) = 0
+mmap(NULL, 3706912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f93a07cf000
+mprotect(0x7f93a0949000, 2097152, PROT_NONE) = 0
+mmap(0x7f93a0b49000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17a000) = 0x7f93a0b49000
+mmap(0x7f93a0b55000, 12320, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f93a0b55000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a0f50000
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f93a0405000
+mprotect(0x7f93a05c5000, 2097152, PROT_NONE) = 0
+mmap(0x7f93a07c5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f93a07c5000
+mmap(0x7f93a07cb000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f93a07cb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f93a00fc000
+mprotect(0x7f93a0204000, 2093056, PROT_NONE) = 0
+mmap(0x7f93a0403000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f93a0403000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=92520, ...}) = 0
+mmap(NULL, 2188336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f939fee5000
+mprotect(0x7f939fefb000, 2093056, PROT_NONE) = 0
+mmap(0x7f93a00fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f93a00fa000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a0f4f000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a0f4e000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a0f4c000
+arch_prctl(ARCH_SET_FS, 0x7f93a0f4c740) = 0
+mprotect(0x7f93a07c5000, 16384, PROT_READ) = 0
+mprotect(0x7f93a00fa000, 4096, PROT_READ) = 0
+mprotect(0x7f93a0403000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f93a0f4b000
+mprotect(0x7f93a0b49000, 40960, PROT_READ) = 0
+mprotect(0x7f93a0d5b000, 4096, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7f93a0f82000, 4096, PROT_READ) = 0
+munmap(0x7f93a0f51000, 190461)          = 0
+brk(NULL)                               = 0xc13000
+brk(0xc45000)                           = 0xc45000
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=190461, ...}) = 0
+mmap(NULL, 190461, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f93a0f51000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=16384, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/tls/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=126976, ...}) = 0
+open("/lib/tls/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/lib/tls/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/tls", 0x7fff8c7a8b00)        = -1 ENOENT (No such file or directory)
+open("/lib/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64", 0x7fff8c7a8b00)     = -1 ENOENT (No such file or directory)
+open("/lib/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/tls/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7fff8c7a8b00)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7fff8c7a8b00) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libstupid_sort.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\6\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=27976, ...}) = 0
+mmap(NULL, 2101312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f939fce3000
+mprotect(0x7f939fce4000, 2093056, PROT_NONE) = 0
+mmap(0x7f939fee3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x7f939fee3000
+close(3)                                = 0
+mprotect(0x7f939fee3000, 4096, PROT_READ) = 0
+munmap(0x7f93a0f51000, 190461)          = 0
+fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 5), ...}) = 0
+write(1, "FUCK YOU!!!", 11)             = 11
+exit_group(0)                           = ?
++++ exited with 0 +++

@@ -1,0 +1,16 @@
+{
+  "loads" : [
+    {
+      "templates_repeat_counter": 500,
+      "templates": [
+        {
+          "rw": "write",
+          "length_of_data_atom": 4096,
+          "pause_in_milliseconds_after_solid_data_chain": 0,
+          "number_of_data_atoms_in_solid_data": 100,
+          "number_of_solid_data_in_chain": 1
+        }
+      ]
+    }
+    ]
+}

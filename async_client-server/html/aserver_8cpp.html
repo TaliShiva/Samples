@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>test: Файл aserver.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">test
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл aserver.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;ctime&gt;</code><br />
+<code>#include &lt;boost/asio.hpp&gt;</code><br />
+<code>#include &lt;boost/shared_ptr.hpp&gt;</code><br />
+<code>#include &lt;boost/bind.hpp&gt;</code><br />
+<code>#include &lt;boost/enable_shared_from_this.hpp&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для aserver.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="aserver_8cpp__incl.png" border="0" usemap="#aserver_8cpp" alt=""/></div>
+<map name="aserver_8cpp" id="aserver_8cpp">
+</map>
+</div>
+</div>
+<p><a href="aserver_8cpp_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__connection.html">tcp_connection</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server.html">tcp_server</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:acb06f12df1818a3a86792cdb2e1a9ba2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aserver_8cpp.html#acb06f12df1818a3a86792cdb2e1a9ba2">make_daytime_string</a> ()</td></tr>
+<tr class="separator:acb06f12df1818a3a86792cdb2e1a9ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aserver_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Функции</h2>
+<a class="anchor" id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>См. определение в файле <a class="el" href="aserver_8cpp_source.html">aserver.cpp</a> строка <a class="el" href="aserver_8cpp_source.html#l00084">84</a></p>
+
+</div>
+</div>
+<a class="anchor" id="acb06f12df1818a3a86792cdb2e1a9ba2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string make_daytime_string </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>См. определение в файле <a class="el" href="aserver_8cpp_source.html">aserver.cpp</a> строка <a class="el" href="aserver_8cpp_source.html#l00012">12</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="aserver_8cpp_acb06f12df1818a3a86792cdb2e1a9ba2_icgraph.png" border="0" usemap="#aserver_8cpp_acb06f12df1818a3a86792cdb2e1a9ba2_icgraph" alt=""/></div>
+<map name="aserver_8cpp_acb06f12df1818a3a86792cdb2e1a9ba2_icgraph" id="aserver_8cpp_acb06f12df1818a3a86792cdb2e1a9ba2_icgraph">
+<area shape="rect" id="node2" href="classtcp__connection.html#a2a1967f305a797f7af974cdc7d49a283" title="tcp_connection::start" alt="" coords="200,5,344,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

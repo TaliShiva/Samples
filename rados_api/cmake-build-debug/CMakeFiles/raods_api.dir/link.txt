@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/raods_api.dir/main.c.o  -o raods_api 

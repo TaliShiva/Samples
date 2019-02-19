@@ -1,0 +1,23 @@
+{
+    "loads": [
+        {
+            "count": 5,
+            "templates": [
+                {
+                    "rw": "write",
+                    "length": 4096,
+                    "pause": 1000
+                },
+                {
+                    "rw": "read",
+                    "length": 1024,
+                    "pause": 0
+                },
+                {
+                    "rw": "read",
+                    "pause": 1400
+                }
+            ]
+        }
+    ]
+}

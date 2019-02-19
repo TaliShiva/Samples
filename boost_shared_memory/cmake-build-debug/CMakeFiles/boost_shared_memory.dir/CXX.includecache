@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/boost_shared_memory/main.cpp
+boost/interprocess/shared_memory_object.hpp
+-
+boost/interprocess/mapped_region.hpp
+-
+cstring
+-
+cstdlib
+-
+string
+-
+iostream
+-
+

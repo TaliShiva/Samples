@@ -1,0 +1,255 @@
+.TH "gorynych" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gorynych \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Классы"
+
+.in +1c
+.ti -1c
+.RI "class \fBCommand\fP"
+.br
+.ti -1c
+.RI "class \fBCommand_BIND_DISK_TO_SCST_Arguments\fP"
+.br
+.ti -1c
+.RI "class \fBResponse\fP"
+.br
+.ti -1c
+.RI "struct \fBStaticDescriptorInitializer_command_5fapi_2eproto\fP"
+.br
+.in -1c
+.SS "Перечисления"
+
+.in +1c
+.ti -1c
+.RI "enum \fBCommand_Command_Type\fP { \fBCommand_Command_Type_NONE\fP = 0, \fBCommand_Command_Type_BIND_DISK_TO_SCST\fP = 1, \fBCommand_Command_Type_ADD_TARGET\fP = 2, \fBCommand_Command_Type_ADD_DISK_TO_TARGET\fP = 3, \fBCommand_Command_Type_REMOVE_LUN\fP = 4, \fBCommand_Command_Type_REMOVE_TARGET\fP = 5, \fBCommand_Command_Type_REMOVE_DISCK_FROM_SCST\fP = 6, \fBCommand_Command_Type_Command_Command_Type_INT_MIN_SENTINEL_DO_NOT_USE_\fP = ::google::protobuf::kint32min, \fBCommand_Command_Type_Command_Command_Type_INT_MAX_SENTINEL_DO_NOT_USE_\fP = ::google::protobuf::kint32max }"
+.br
+.in -1c
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "local::stream_protocol::endpoint \fBep\fP (\fBfile\fP)"
+.br
+.ti -1c
+.RI "size_t \fBread_complete\fP (char *buf, const boost::system::error_code &err, size_t bytes)"
+.br
+.RI "\fIПроверяет, что пакет получен полностью\&. \fP"
+.ti -1c
+.RI "std::string \fBsend_command\fP (const std::string &data)"
+.br
+.RI "\fIОтправляет команду и получает ответ\&. \fP"
+.ti -1c
+.RI "std::string \fBbuild_command_test\fP ()"
+.br
+.RI "\fIСоздает команду test\&. \fP"
+.ti -1c
+.RI "void \fBparse_response_from_command_test\fP (const std::string &data)"
+.br
+.RI "\fIОбрабатывает ответ на команду\&. \fP"
+.ti -1c
+.RI "void \fBprotobuf_AssignDesc_command_5fapi_2eproto\fP () GOOGLE_ATTRIBUTE_COLD"
+.br
+.ti -1c
+.RI "void \fBprotobuf_ShutdownFile_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_InitDefaults_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "\fBGOOGLE_PROTOBUF_DECLARE_ONCE\fP (protobuf_InitDefaults_command_5fapi_2eproto_once_)"
+.br
+.ti -1c
+.RI "void \fBprotobuf_InitDefaults_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AddDesc_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "\fBGOOGLE_PROTOBUF_DECLARE_ONCE\fP (protobuf_AddDesc_command_5fapi_2eproto_once_)"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AddDesc_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "const ::google::protobuf::EnumDescriptor * \fBCommand_Command_Type_descriptor\fP ()"
+.br
+.ti -1c
+.RI "bool \fBCommand_Command_Type_IsValid\fP (int value)"
+.br
+.ti -1c
+.RI "const ::std::string & \fBCommand_Command_Type_Name\fP (\fBCommand_Command_Type\fP value)"
+.br
+.ti -1c
+.RI "bool \fBCommand_Command_Type_Parse\fP (const ::std::string &name, \fBCommand_Command_Type\fP *value)"
+.br
+.in -1c
+.SS "Переменные"
+
+.in +1c
+.ti -1c
+.RI "io_service \fBservice_\fP"
+.br
+.ti -1c
+.RI "auto \fBfile\fP = '/tmp/testprotobuf'"
+.br
+.ti -1c
+.RI "struct \fBgorynych::StaticDescriptorInitializer_command_5fapi_2eproto\fP \fBstatic_descriptor_initializer_command_5fapi_2eproto_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ExplicitlyConstructed< \fBCommand_BIND_DISK_TO_SCST_Arguments\fP > \fBCommand_BIND_DISK_TO_SCST_Arguments_default_instance_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ExplicitlyConstructed< \fBCommand\fP > \fBCommand_default_instance_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ExplicitlyConstructed< \fBResponse\fP > \fBResponse_default_instance_\fP"
+.br
+.ti -1c
+.RI "const \fBCommand_Command_Type\fP \fBCommand_Command_Type_Command_Type_MIN\fP = \fBCommand_Command_Type_NONE\fP"
+.br
+.ti -1c
+.RI "const \fBCommand_Command_Type\fP \fBCommand_Command_Type_Command_Type_MAX\fP = \fBCommand_Command_Type_REMOVE_DISCK_FROM_SCST\fP"
+.br
+.ti -1c
+.RI "const int \fBCommand_Command_Type_Command_Type_ARRAYSIZE\fP = \fBCommand_Command_Type_Command_Type_MAX\fP + 1"
+.br
+.in -1c
+.SH "Перечисления"
+.PP 
+.SS "enum \fBgorynych::Command_Command_Type\fP"
+
+.PP
+\fBЭлементы перечислений\fP
+.in +1c
+.TP
+\fB\fICommand_Command_Type_NONE \fP\fP
+.TP
+\fB\fICommand_Command_Type_BIND_DISK_TO_SCST \fP\fP
+.TP
+\fB\fICommand_Command_Type_ADD_TARGET \fP\fP
+.TP
+\fB\fICommand_Command_Type_ADD_DISK_TO_TARGET \fP\fP
+.TP
+\fB\fICommand_Command_Type_REMOVE_LUN \fP\fP
+.TP
+\fB\fICommand_Command_Type_REMOVE_TARGET \fP\fP
+.TP
+\fB\fICommand_Command_Type_REMOVE_DISCK_FROM_SCST \fP\fP
+.TP
+\fB\fICommand_Command_Type_Command_Command_Type_INT_MIN_SENTINEL_DO_NOT_USE_ \fP\fP
+.TP
+\fB\fICommand_Command_Type_Command_Command_Type_INT_MAX_SENTINEL_DO_NOT_USE_ \fP\fP
+.SH "Функции"
+.PP 
+.SS "std::string gorynych::build_command_test ()"
+
+.PP
+Создает команду test\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+Сырые данные команды 
+.RE
+.PP
+
+.SS "const ::google::protobuf::EnumDescriptor * gorynych::Command_Command_Type_descriptor ()"
+
+.SS "bool gorynych::Command_Command_Type_IsValid (int value)"
+
+.SS "const ::std::string& gorynych::Command_Command_Type_Name (\fBCommand_Command_Type\fP value)\fC [inline]\fP"
+
+.SS "bool gorynych::Command_Command_Type_Parse (const ::std::string & name, \fBCommand_Command_Type\fP * value)\fC [inline]\fP"
+
+.SS "local::stream_protocol::endpoint gorynych::ep (\fBfile\fP)"
+
+.SS "gorynych::GOOGLE_PROTOBUF_DECLARE_ONCE (protobuf_InitDefaults_command_5fapi_2eproto_once_)"
+
+.SS "gorynych::GOOGLE_PROTOBUF_DECLARE_ONCE (protobuf_AddDesc_command_5fapi_2eproto_once_)"
+
+.SS "void gorynych::parse_response_from_command_test (const std::string & data)"
+
+.PP
+Обрабатывает ответ на команду\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIdata\fP Сырые данные ответа 
+.RE
+.PP
+
+.SS "void gorynych::protobuf_AddDesc_command_5fapi_2eproto ()"
+
+.SS "void gorynych::protobuf_AddDesc_command_5fapi_2eproto_impl ()"
+
+.SS "void gorynych::protobuf_AssignDesc_command_5fapi_2eproto ()"
+
+.SS "void gorynych::protobuf_InitDefaults_command_5fapi_2eproto ()"
+
+.SS "void gorynych::protobuf_InitDefaults_command_5fapi_2eproto_impl ()"
+
+.SS "void gorynych::protobuf_ShutdownFile_command_5fapi_2eproto ()"
+
+.SS "size_t gorynych::read_complete (char * buf, const boost::system::error_code & err, size_t bytes)"
+
+.PP
+Проверяет, что пакет получен полностью\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIbuf\fP Буффер с данными 
+.br
+\fIerr\fP Ошибка 
+.br
+\fIbytes\fP Полный размер полученных данных 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Сколько данных еще необходимо получить 
+.RE
+.PP
+
+.SS "std::string gorynych::send_command (const std::string & data)"
+
+.PP
+Отправляет команду и получает ответ\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIdata\fP Сырые данные команды 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+Сырые данные ответа 
+.RE
+.PP
+
+.SH "Переменные"
+.PP 
+.SS "extern::google::protobuf::internal::ExplicitlyConstructed< \fBCommand_BIND_DISK_TO_SCST_Arguments\fP > gorynych::Command_BIND_DISK_TO_SCST_Arguments_default_instance_"
+
+.SS "const int gorynych::Command_Command_Type_Command_Type_ARRAYSIZE = \fBCommand_Command_Type_Command_Type_MAX\fP + 1"
+
+.SS "const \fBCommand_Command_Type\fP gorynych::Command_Command_Type_Command_Type_MAX = \fBCommand_Command_Type_REMOVE_DISCK_FROM_SCST\fP"
+
+.SS "const \fBCommand_Command_Type\fP gorynych::Command_Command_Type_Command_Type_MIN = \fBCommand_Command_Type_NONE\fP"
+
+.SS "extern::google::protobuf::internal::ExplicitlyConstructed< \fBCommand\fP > gorynych::Command_default_instance_"
+
+.SS "auto gorynych::file = '/tmp/testprotobuf'"
+
+.SS "extern::google::protobuf::internal::ExplicitlyConstructed< \fBResponse\fP > gorynych::Response_default_instance_"
+
+.SS "io_service gorynych::service_"
+
+.SS "struct \fBgorynych::StaticDescriptorInitializer_command_5fapi_2eproto\fP  gorynych::static_descriptor_initializer_command_5fapi_2eproto_"
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

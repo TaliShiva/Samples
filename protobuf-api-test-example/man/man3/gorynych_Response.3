@@ -1,0 +1,308 @@
+.TH "gorynych::Response" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gorynych::Response \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <command_api\&.pb\&.h>\fP
+.PP
+Базовые классы:Message\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBResponse\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~Response\fP ()"
+.br
+.ti -1c
+.RI "\fBResponse\fP (const \fBResponse\fP &from)"
+.br
+.ti -1c
+.RI "\fBResponse\fP & \fBoperator=\fP (const \fBResponse\fP &from)"
+.br
+.ti -1c
+.RI "void \fBSwap\fP (\fBResponse\fP *other)"
+.br
+.ti -1c
+.RI "\fBResponse\fP * \fBNew\fP () const "
+.br
+.ti -1c
+.RI "\fBResponse\fP * \fBNew\fP (::google::protobuf::Arena *arena) const "
+.br
+.ti -1c
+.RI "void \fBCopyFrom\fP (const ::google::protobuf::Message &from)"
+.br
+.ti -1c
+.RI "void \fBMergeFrom\fP (const ::google::protobuf::Message &from)"
+.br
+.ti -1c
+.RI "void \fBCopyFrom\fP (const \fBResponse\fP &from)"
+.br
+.ti -1c
+.RI "void \fBMergeFrom\fP (const \fBResponse\fP &from)"
+.br
+.ti -1c
+.RI "void \fBClear\fP ()"
+.br
+.ti -1c
+.RI "bool \fBIsInitialized\fP () const "
+.br
+.ti -1c
+.RI "size_t \fBByteSizeLong\fP () const "
+.br
+.ti -1c
+.RI "bool \fBMergePartialFromCodedStream\fP (::google::protobuf::io::CodedInputStream *input)"
+.br
+.ti -1c
+.RI "void \fBSerializeWithCachedSizes\fP (::google::protobuf::io::CodedOutputStream *output) const "
+.br
+.ti -1c
+.RI "::google::protobuf::uint8 * \fBInternalSerializeWithCachedSizesToArray\fP (bool deterministic,::google::protobuf::uint8 *output) const "
+.br
+.ti -1c
+.RI "::google::protobuf::uint8 * \fBSerializeWithCachedSizesToArray\fP (::google::protobuf::uint8 *output) const "
+.br
+.ti -1c
+.RI "int \fBGetCachedSize\fP () const "
+.br
+.ti -1c
+.RI "::google::protobuf::Metadata \fBGetMetadata\fP () const "
+.br
+.ti -1c
+.RI "void \fBclear_ok\fP ()"
+.br
+.ti -1c
+.RI "bool \fBok\fP () const "
+.br
+.ti -1c
+.RI "void \fBset_ok\fP (bool value)"
+.br
+.ti -1c
+.RI "void \fBclear_data\fP ()"
+.br
+.ti -1c
+.RI "const ::std::string & \fBdata\fP () const "
+.br
+.ti -1c
+.RI "void \fBset_data\fP (const ::std::string &value)"
+.br
+.ti -1c
+.RI "void \fBset_data\fP (const char *value)"
+.br
+.ti -1c
+.RI "void \fBset_data\fP (const char *value, size_t size)"
+.br
+.ti -1c
+.RI "::std::string * \fBmutable_data\fP ()"
+.br
+.ti -1c
+.RI "::std::string * \fBrelease_data\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_allocated_data\fP (::std::string *\fBdata\fP)"
+.br
+.in -1c
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "static const ::google::protobuf::Descriptor * \fBdescriptor\fP ()"
+.br
+.ti -1c
+.RI "static const \fBResponse\fP & \fBdefault_instance\fP ()"
+.br
+.ti -1c
+.RI "static const \fBResponse\fP * \fBinternal_default_instance\fP ()"
+.br
+.in -1c
+.SS "Статические открытые данные"
+
+.in +1c
+.ti -1c
+.RI "static const int \fBkOkFieldNumber\fP = 1"
+.br
+.ti -1c
+.RI "static const int \fBkDataFieldNumber\fP = 2"
+.br
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBSharedCtor\fP ()"
+.br
+.ti -1c
+.RI "void \fBSharedDtor\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetCachedSize\fP (int size) const "
+.br
+.ti -1c
+.RI "void \fBInternalSwap\fP (\fBResponse\fP *other)"
+.br
+.ti -1c
+.RI "void \fBUnsafeMergeFrom\fP (const \fBResponse\fP &from)"
+.br
+.ti -1c
+.RI "inline::google::protobuf::Arena * \fBGetArenaNoVirtual\fP () const "
+.br
+.ti -1c
+.RI "void * \fBMaybeArenaPtr\fP () const "
+.br
+.ti -1c
+.RI "void \fBInitAsDefaultInstance\fP ()"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "::google::protobuf::internal::InternalMetadataWithArena \fB_internal_metadata_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ArenaStringPtr \fBdata_\fP"
+.br
+.ti -1c
+.RI "bool \fBok_\fP"
+.br
+.ti -1c
+.RI "int \fB_cached_size_\fP"
+.br
+.in -1c
+.SS "Друзья"
+
+.in +1c
+.ti -1c
+.RI "void \fBprotobuf_InitDefaults_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AddDesc_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AssignDesc_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_ShutdownFile_command_5fapi_2eproto\fP ()"
+.br
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "gorynych::Response::Response ()"
+
+.SS "gorynych::Response::~Response ()\fC [virtual]\fP"
+
+.SS "gorynych::Response::Response (const \fBResponse\fP & from)"
+
+.SH "Методы"
+.PP 
+.SS "size_t gorynych::Response::ByteSizeLong () const"
+
+.SS "void gorynych::Response::Clear ()"
+
+.SS "void gorynych::Response::clear_data ()\fC [inline]\fP"
+
+.SS "void gorynych::Response::clear_ok ()\fC [inline]\fP"
+
+.SS "void gorynych::Response::CopyFrom (const ::google::protobuf::Message & from)"
+
+.SS "void gorynych::Response::CopyFrom (const \fBResponse\fP & from)"
+
+.SS "const ::std::string & gorynych::Response::data () const\fC [inline]\fP"
+
+.SS "const \fBResponse\fP & gorynych::Response::default_instance ()\fC [static]\fP"
+
+.SS "const ::google::protobuf::Descriptor * gorynych::Response::descriptor ()\fC [static]\fP"
+
+.SS "inline ::google::protobuf::Arena* gorynych::Response::GetArenaNoVirtual () const\fC [inline]\fP, \fC [private]\fP"
+
+.SS "int gorynych::Response::GetCachedSize () const\fC [inline]\fP"
+
+.SS "google::protobuf::Metadata gorynych::Response::GetMetadata () const"
+
+.SS "void gorynych::Response::InitAsDefaultInstance ()\fC [private]\fP"
+
+.SS "const \fBResponse\fP * gorynych::Response::internal_default_instance ()\fC [inline]\fP, \fC [static]\fP"
+
+.SS "google::protobuf::uint8 * gorynych::Response::InternalSerializeWithCachedSizesToArray (bool deterministic, ::google::protobuf::uint8 * output) const"
+
+.SS "void gorynych::Response::InternalSwap (\fBResponse\fP * other)\fC [private]\fP"
+
+.SS "bool gorynych::Response::IsInitialized () const"
+
+.SS "void* gorynych::Response::MaybeArenaPtr () const\fC [inline]\fP, \fC [private]\fP"
+
+.SS "void gorynych::Response::MergeFrom (const ::google::protobuf::Message & from)"
+
+.SS "void gorynych::Response::MergeFrom (const \fBResponse\fP & from)"
+
+.SS "bool gorynych::Response::MergePartialFromCodedStream (::google::protobuf::io::CodedInputStream * input)"
+
+.SS "std::string * gorynych::Response::mutable_data ()\fC [inline]\fP"
+
+.SS "\fBResponse\fP* gorynych::Response::New () const\fC [inline]\fP"
+
+.SS "\fBResponse\fP * gorynych::Response::New (::google::protobuf::Arena * arena) const"
+
+.SS "bool gorynych::Response::ok () const\fC [inline]\fP"
+
+.SS "\fBResponse\fP& gorynych::Response::operator= (const \fBResponse\fP & from)\fC [inline]\fP"
+
+.SS "std::string * gorynych::Response::release_data ()\fC [inline]\fP"
+
+.SS "void gorynych::Response::SerializeWithCachedSizes (::google::protobuf::io::CodedOutputStream * output) const"
+
+.SS "::google::protobuf::uint8* gorynych::Response::SerializeWithCachedSizesToArray (::google::protobuf::uint8 * output) const\fC [inline]\fP"
+
+.SS "void gorynych::Response::set_allocated_data (::std::string * data)\fC [inline]\fP"
+
+.SS "void gorynych::Response::set_data (const ::std::string & value)\fC [inline]\fP"
+
+.SS "void gorynych::Response::set_data (const char * value)\fC [inline]\fP"
+
+.SS "void gorynych::Response::set_data (const char * value, size_t size)\fC [inline]\fP"
+
+.SS "void gorynych::Response::set_ok (bool value)\fC [inline]\fP"
+
+.SS "void gorynych::Response::SetCachedSize (int size) const\fC [private]\fP"
+
+.SS "void gorynych::Response::SharedCtor ()\fC [private]\fP"
+
+.SS "void gorynych::Response::SharedDtor ()\fC [private]\fP"
+
+.SS "void gorynych::Response::Swap (\fBResponse\fP * other)"
+
+.SS "void gorynych::Response::UnsafeMergeFrom (const \fBResponse\fP & from)\fC [private]\fP"
+
+.SH "Документация по друзьям класса и функциям, относящимся к классу"
+.PP 
+.SS "void protobuf_AddDesc_command_5fapi_2eproto_impl ()\fC [friend]\fP"
+
+.SS "void protobuf_AssignDesc_command_5fapi_2eproto ()\fC [friend]\fP"
+
+.SS "void protobuf_InitDefaults_command_5fapi_2eproto_impl ()\fC [friend]\fP"
+
+.SS "void protobuf_ShutdownFile_command_5fapi_2eproto ()\fC [friend]\fP"
+
+.SH "Данные класса"
+.PP 
+.SS "int gorynych::Response::_cached_size_\fC [mutable]\fP, \fC [private]\fP"
+
+.SS "::google::protobuf::internal::InternalMetadataWithArena gorynych::Response::_internal_metadata_\fC [private]\fP"
+
+.SS "::google::protobuf::internal::ArenaStringPtr gorynych::Response::data_\fC [private]\fP"
+
+.SS "const int gorynych::Response::kDataFieldNumber = 2\fC [static]\fP"
+
+.SS "const int gorynych::Response::kOkFieldNumber = 1\fC [static]\fP"
+
+.SS "bool gorynych::Response::ok_\fC [private]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

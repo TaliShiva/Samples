@@ -1,0 +1,3 @@
+/home/user/CLionProjects/open_and_close_files/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/user/CLionProjects/open_and_close_files/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/user/CLionProjects/open_and_close_files/cmake-build-debug/CMakeFiles/open_and_close_files.dir

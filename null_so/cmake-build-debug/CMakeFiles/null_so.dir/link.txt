@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/null_so.dir/main.cpp.o  -o null_so 

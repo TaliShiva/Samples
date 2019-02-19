@@ -1,0 +1,3 @@
+.idea
+cmake-build-debug
+Будет пропущен репозиторий test/3rd_party/googletest

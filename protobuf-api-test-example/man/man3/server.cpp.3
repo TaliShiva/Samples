@@ -1,0 +1,67 @@
+.TH "server.cpp" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+server.cpp \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <boost/asio\&.hpp>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <boost/iostreams/device/file_descriptor\&.hpp>\fP
+.br
+\fC#include <boost/iostreams/stream\&.hpp>\fP
+.br
+\fC#include <boost/bind\&.hpp>\fP
+.br
+\fC#include <iomanip>\fP
+.br
+\fC#include 'packet\&.h'\fP
+.br
+\fC#include 'cmake\-build\-debug/command_api\&.pb\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBhandle_request\fP (std::string data)"
+.br
+.ti -1c
+.RI "size_t \fBread_complete\fP (char *buf, const boost::system::error_code &err, size_t bytes)"
+.br
+.ti -1c
+.RI "void \fBhandle_connections\fP (const ::std::string &file)"
+.br
+.ti -1c
+.RI "int \fBmain\fP (int argc, char *argv[])"
+.br
+.in -1c
+.SS "Переменные"
+
+.in +1c
+.ti -1c
+.RI "io_service \fBservice_\fP"
+.br
+.in -1c
+.SH "Функции"
+.PP 
+.SS "void handle_connections (const ::std::string & file)"
+
+.SS "std::string handle_request (std::string data)"
+
+.SS "int main (int argc, char * argv[])"
+
+.SS "size_t read_complete (char * buf, const boost::system::error_code & err, size_t bytes)"
+
+.SH "Переменные"
+.PP 
+.SS "io_service service_"
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

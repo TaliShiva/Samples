@@ -1,0 +1,27 @@
+syntax = "proto3";
+package gorynych;
+message Command {
+    enum Command_Type {
+        NONE = 0;
+        BIND_DISK_TO_SCST = 1;
+        ADD_TARGET = 2;
+        ADD_DISK_TO_TARGET = 3;
+        REMOVE_LUN = 4;
+        REMOVE_TARGET = 5;
+        REMOVE_DISCK_FROM_SCST = 6;
+    }
+    Command_Type command_type = 1;
+    message BIND_DISK_TO_SCST_Arguments {
+        string url = 1;
+        string title = 2;
+        repeated string snippets = 3;
+    }
+
+        BIND_DISK_TO_SCST_Arguments results = 2;
+        string blah = 3;
+
+}
+message Response {
+    bool ok = 1;
+    string data = 2;
+}

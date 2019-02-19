@@ -1,0 +1,5 @@
+namespace gorynych {
+    namespace worker {
+
+    }
+}

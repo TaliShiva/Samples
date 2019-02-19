@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BEv1_0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BEv1_0">
+				<Option output="/home/user/CLionProjects/BEv1.0/cmake-build-debug/libBEv1_0.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/BEv1.0/../basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 BEv1_0"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BEv1_0/fast">
+				<Option output="/home/user/CLionProjects/BEv1.0/cmake-build-debug/libBEv1_0.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/BEv1.0/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/BEv1.0/../basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 BEv1_0/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/BEv1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/user/CLionProjects/BEv1.0/cmake-build-debug/report.pb.cc">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/BEv1.0/cmake-build-debug/report.pb.cc.rule">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/BEv1.0/cmake-build-debug/report.pb.h">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/BEv1.0/main.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/TestProgram.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/RawDataWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/client/ClientDataAtomWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/client/ClientDataPacketWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/client/ClientDataStripeWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/physical/PhysicalRegion.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/ChecksumChainWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/ChecksumSolidDataWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/DataAtom.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/DataStripeWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/FullStripeWrite.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/SolidData.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/SolidDataChain.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/DiskPerformer.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/DiskPort.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/hw_queue_mirror/HWQueueMirrorBuffer.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/hw_queue_mirror/HWQueueMirrorElement.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/local_disk_queue/LocalDiskQueue.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/local_disk_queue/LocalDiskQueueElement.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/statistics/EntityStatistics.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/statistics/EntityStatisticsBuffer.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/global_buffer/GlobalBufferMock.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/load/LoadParameters.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/load/LoadProfile.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/load/LoadTemplate.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/ExternalStatistics.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/IReport.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/ReportQueue.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/SensorsReport.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/StartReport.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/StopReport.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/utils/Packet.hpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/TestProgram.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/RawDataWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/client/ClientDataAtomWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/client/ClientDataPacketWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/client/ClientDataStripeWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/physical/PhysicalRegion.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/ChecksumChainWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/ChecksumSolidDataWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/DataAtom.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/DataStripeWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/FullStripeWrite.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/SolidData.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/SolidDataChain.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/DiskPerformer.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/DiskPort.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/hw_queue_mirror/HWQueueMirrorBuffer.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/hw_queue_mirror/HWQueueMirrorElement.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/local_disk_queue/LocalDiskQueue.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/local_disk_queue/LocalDiskQueueElement.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/statistics/EntityStatistics.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/statistics/EntityStatisticsBuffer.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/global_buffer/GlobalBufferMock.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/load/LoadParameters.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/load/LoadProfile.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/load/LoadTemplate.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/ExternalStatistics.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/ReportQueue.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/SensorsReport.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/StartReport.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/StopReport.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/utils/Packet.cpp">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/fio/fio/fio.h">
+			<Option target="BEv1_0"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/BEv1.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

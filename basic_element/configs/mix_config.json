@@ -1,0 +1,42 @@
+{
+    "loads" : [
+        {
+            "templates_repeat_counter": 20,
+            "templates": [
+                {
+                    "rw": "write",
+                    "length_of_data_atom": 4096,
+                    "pause_in_milliseconds_after_solid_data_chain": 1000,
+		    "number_of_data_atoms_in_solid_data": 10,
+                    "number_of_solid_data_in_chain": 6
+                },
+                {
+                    "rw": "write",
+                    "length_of_data_atom": 8192,
+                    "pause_in_milliseconds_after_solid_data_chain": 0,
+		    "number_of_data_atoms_in_solid_data": 20,
+                    "number_of_solid_data_in_chain": 40
+                }
+            ]
+        },
+        {
+            "templates_repeat_counter": 39,
+            "templates" : [
+                {
+                    "rw": "write",
+                    "length_of_data_atom": 24576,
+                    "pause_in_milliseconds_after_solid_data_chain": 5000,
+		    "number_of_data_atoms_in_solid_data": 1,
+                    "number_of_solid_data_in_chain": 3
+                },
+                {
+                    "rw": "write",
+                    "length_of_data_atom": 40960,
+                    "pause_in_milliseconds_after_solid_data_chain": 3000,
+		    "number_of_data_atoms_in_solid_data": 10,
+                    "number_of_solid_data_in_chain": 17
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,484 @@
+.TH "gorynych::Command" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gorynych::Command \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <command_api\&.pb\&.h>\fP
+.PP
+Базовые классы:Message\&.
+.SS "Открытые типы"
+
+.in +1c
+.ti -1c
+.RI "typedef \fBCommand_BIND_DISK_TO_SCST_Arguments\fP \fBBIND_DISK_TO_SCST_Arguments\fP"
+.br
+.ti -1c
+.RI "typedef \fBCommand_Command_Type\fP \fBCommand_Type\fP"
+.br
+.in -1c
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBCommand\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~Command\fP ()"
+.br
+.ti -1c
+.RI "\fBCommand\fP (const \fBCommand\fP &from)"
+.br
+.ti -1c
+.RI "\fBCommand\fP & \fBoperator=\fP (const \fBCommand\fP &from)"
+.br
+.ti -1c
+.RI "void \fBSwap\fP (\fBCommand\fP *other)"
+.br
+.ti -1c
+.RI "\fBCommand\fP * \fBNew\fP () const "
+.br
+.ti -1c
+.RI "\fBCommand\fP * \fBNew\fP (::google::protobuf::Arena *arena) const "
+.br
+.ti -1c
+.RI "void \fBCopyFrom\fP (const ::google::protobuf::Message &from)"
+.br
+.ti -1c
+.RI "void \fBMergeFrom\fP (const ::google::protobuf::Message &from)"
+.br
+.ti -1c
+.RI "void \fBCopyFrom\fP (const \fBCommand\fP &from)"
+.br
+.ti -1c
+.RI "void \fBMergeFrom\fP (const \fBCommand\fP &from)"
+.br
+.ti -1c
+.RI "void \fBClear\fP ()"
+.br
+.ti -1c
+.RI "bool \fBIsInitialized\fP () const "
+.br
+.ti -1c
+.RI "size_t \fBByteSizeLong\fP () const "
+.br
+.ti -1c
+.RI "bool \fBMergePartialFromCodedStream\fP (::google::protobuf::io::CodedInputStream *input)"
+.br
+.ti -1c
+.RI "void \fBSerializeWithCachedSizes\fP (::google::protobuf::io::CodedOutputStream *output) const "
+.br
+.ti -1c
+.RI "::google::protobuf::uint8 * \fBInternalSerializeWithCachedSizesToArray\fP (bool deterministic,::google::protobuf::uint8 *output) const "
+.br
+.ti -1c
+.RI "::google::protobuf::uint8 * \fBSerializeWithCachedSizesToArray\fP (::google::protobuf::uint8 *output) const "
+.br
+.ti -1c
+.RI "int \fBGetCachedSize\fP () const "
+.br
+.ti -1c
+.RI "::google::protobuf::Metadata \fBGetMetadata\fP () const "
+.br
+.ti -1c
+.RI "void \fBclear_command_type\fP ()"
+.br
+.ti -1c
+.RI "::\fBgorynych::Command_Command_Type\fP \fBcommand_type\fP () const "
+.br
+.ti -1c
+.RI "void \fBset_command_type\fP (::\fBgorynych::Command_Command_Type\fP value)"
+.br
+.ti -1c
+.RI "bool \fBhas_results\fP () const "
+.br
+.ti -1c
+.RI "void \fBclear_results\fP ()"
+.br
+.ti -1c
+.RI "const ::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP & \fBresults\fP () const "
+.br
+.ti -1c
+.RI "::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP * \fBmutable_results\fP ()"
+.br
+.ti -1c
+.RI "::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP * \fBrelease_results\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_allocated_results\fP (::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP *\fBresults\fP)"
+.br
+.ti -1c
+.RI "void \fBclear_blah\fP ()"
+.br
+.ti -1c
+.RI "const ::std::string & \fBblah\fP () const "
+.br
+.ti -1c
+.RI "void \fBset_blah\fP (const ::std::string &value)"
+.br
+.ti -1c
+.RI "void \fBset_blah\fP (const char *value)"
+.br
+.ti -1c
+.RI "void \fBset_blah\fP (const char *value, size_t size)"
+.br
+.ti -1c
+.RI "::std::string * \fBmutable_blah\fP ()"
+.br
+.ti -1c
+.RI "::std::string * \fBrelease_blah\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_allocated_blah\fP (::std::string *\fBblah\fP)"
+.br
+.in -1c
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "static const ::google::protobuf::Descriptor * \fBdescriptor\fP ()"
+.br
+.ti -1c
+.RI "static const \fBCommand\fP & \fBdefault_instance\fP ()"
+.br
+.ti -1c
+.RI "static const \fBCommand\fP * \fBinternal_default_instance\fP ()"
+.br
+.ti -1c
+.RI "static bool \fBCommand_Type_IsValid\fP (int value)"
+.br
+.ti -1c
+.RI "static const ::google::protobuf::EnumDescriptor * \fBCommand_Type_descriptor\fP ()"
+.br
+.ti -1c
+.RI "static const ::std::string & \fBCommand_Type_Name\fP (\fBCommand_Type\fP value)"
+.br
+.ti -1c
+.RI "static bool \fBCommand_Type_Parse\fP (const ::std::string &name, \fBCommand_Type\fP *value)"
+.br
+.in -1c
+.SS "Статические открытые данные"
+
+.in +1c
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBNONE\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBBIND_DISK_TO_SCST\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBADD_TARGET\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBADD_DISK_TO_TARGET\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBREMOVE_LUN\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBREMOVE_TARGET\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBREMOVE_DISCK_FROM_SCST\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBCommand_Type_MIN\fP"
+.br
+.ti -1c
+.RI "static const \fBCommand_Type\fP \fBCommand_Type_MAX\fP"
+.br
+.ti -1c
+.RI "static const int \fBCommand_Type_ARRAYSIZE\fP"
+.br
+.ti -1c
+.RI "static const int \fBkCommandTypeFieldNumber\fP = 1"
+.br
+.ti -1c
+.RI "static const int \fBkResultsFieldNumber\fP = 2"
+.br
+.ti -1c
+.RI "static const int \fBkBlahFieldNumber\fP = 3"
+.br
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBSharedCtor\fP ()"
+.br
+.ti -1c
+.RI "void \fBSharedDtor\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetCachedSize\fP (int size) const "
+.br
+.ti -1c
+.RI "void \fBInternalSwap\fP (\fBCommand\fP *other)"
+.br
+.ti -1c
+.RI "void \fBUnsafeMergeFrom\fP (const \fBCommand\fP &from)"
+.br
+.ti -1c
+.RI "inline::google::protobuf::Arena * \fBGetArenaNoVirtual\fP () const "
+.br
+.ti -1c
+.RI "void * \fBMaybeArenaPtr\fP () const "
+.br
+.ti -1c
+.RI "void \fBInitAsDefaultInstance\fP ()"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "::google::protobuf::internal::InternalMetadataWithArena \fB_internal_metadata_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ArenaStringPtr \fBblah_\fP"
+.br
+.ti -1c
+.RI "::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP * \fBresults_\fP"
+.br
+.ti -1c
+.RI "int \fBcommand_type_\fP"
+.br
+.ti -1c
+.RI "int \fB_cached_size_\fP"
+.br
+.in -1c
+.SS "Друзья"
+
+.in +1c
+.ti -1c
+.RI "void \fBprotobuf_InitDefaults_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AddDesc_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AssignDesc_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_ShutdownFile_command_5fapi_2eproto\fP ()"
+.br
+.in -1c
+.SH "Определения типов"
+.PP 
+.SS "typedef \fBCommand_BIND_DISK_TO_SCST_Arguments\fP \fBgorynych::Command::BIND_DISK_TO_SCST_Arguments\fP"
+
+.SS "typedef \fBCommand_Command_Type\fP \fBgorynych::Command::Command_Type\fP"
+
+.SH "Конструктор(ы)"
+.PP 
+.SS "gorynych::Command::Command ()"
+
+.SS "gorynych::Command::~Command ()\fC [virtual]\fP"
+
+.SS "gorynych::Command::Command (const \fBCommand\fP & from)"
+
+.SH "Методы"
+.PP 
+.SS "const ::std::string & gorynych::Command::blah () const\fC [inline]\fP"
+
+.SS "size_t gorynych::Command::ByteSizeLong () const"
+
+.SS "void gorynych::Command::Clear ()"
+
+.SS "void gorynych::Command::clear_blah ()\fC [inline]\fP"
+
+.SS "void gorynych::Command::clear_command_type ()\fC [inline]\fP"
+
+.SS "void gorynych::Command::clear_results ()\fC [inline]\fP"
+
+.SS "\fBgorynych::Command_Command_Type\fP gorynych::Command::command_type () const\fC [inline]\fP"
+
+.SS "static const ::google::protobuf::EnumDescriptor* gorynych::Command::Command_Type_descriptor ()\fC [inline]\fP, \fC [static]\fP"
+
+.SS "static bool gorynych::Command::Command_Type_IsValid (int value)\fC [inline]\fP, \fC [static]\fP"
+
+.SS "static const ::std::string& gorynych::Command::Command_Type_Name (\fBCommand_Type\fP value)\fC [inline]\fP, \fC [static]\fP"
+
+.SS "static bool gorynych::Command::Command_Type_Parse (const ::std::string & name, \fBCommand_Type\fP * value)\fC [inline]\fP, \fC [static]\fP"
+
+.SS "void gorynych::Command::CopyFrom (const ::google::protobuf::Message & from)"
+
+.SS "void gorynych::Command::CopyFrom (const \fBCommand\fP & from)"
+
+.SS "const \fBCommand\fP & gorynych::Command::default_instance ()\fC [static]\fP"
+
+.SS "const ::google::protobuf::Descriptor * gorynych::Command::descriptor ()\fC [static]\fP"
+
+.SS "inline ::google::protobuf::Arena* gorynych::Command::GetArenaNoVirtual () const\fC [inline]\fP, \fC [private]\fP"
+
+.SS "int gorynych::Command::GetCachedSize () const\fC [inline]\fP"
+
+.SS "google::protobuf::Metadata gorynych::Command::GetMetadata () const"
+
+.SS "bool gorynych::Command::has_results () const\fC [inline]\fP"
+
+.SS "void gorynych::Command::InitAsDefaultInstance ()\fC [private]\fP"
+
+.SS "const \fBCommand\fP * gorynych::Command::internal_default_instance ()\fC [inline]\fP, \fC [static]\fP"
+
+.SS "google::protobuf::uint8 * gorynych::Command::InternalSerializeWithCachedSizesToArray (bool deterministic, ::google::protobuf::uint8 * output) const"
+
+.SS "void gorynych::Command::InternalSwap (\fBCommand\fP * other)\fC [private]\fP"
+
+.SS "bool gorynych::Command::IsInitialized () const"
+
+.SS "void* gorynych::Command::MaybeArenaPtr () const\fC [inline]\fP, \fC [private]\fP"
+
+.SS "void gorynych::Command::MergeFrom (const ::google::protobuf::Message & from)"
+
+.SS "void gorynych::Command::MergeFrom (const \fBCommand\fP & from)"
+
+.SS "bool gorynych::Command::MergePartialFromCodedStream (::google::protobuf::io::CodedInputStream * input)"
+
+.SS "std::string * gorynych::Command::mutable_blah ()\fC [inline]\fP"
+
+.SS "\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP * gorynych::Command::mutable_results ()\fC [inline]\fP"
+
+.SS "\fBCommand\fP* gorynych::Command::New () const\fC [inline]\fP"
+
+.SS "\fBCommand\fP * gorynych::Command::New (::google::protobuf::Arena * arena) const"
+
+.SS "\fBCommand\fP& gorynych::Command::operator= (const \fBCommand\fP & from)\fC [inline]\fP"
+
+.SS "std::string * gorynych::Command::release_blah ()\fC [inline]\fP"
+
+.SS "\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP * gorynych::Command::release_results ()\fC [inline]\fP"
+
+.SS "const ::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP & gorynych::Command::results () const\fC [inline]\fP"
+
+.SS "void gorynych::Command::SerializeWithCachedSizes (::google::protobuf::io::CodedOutputStream * output) const"
+
+.SS "::google::protobuf::uint8* gorynych::Command::SerializeWithCachedSizesToArray (::google::protobuf::uint8 * output) const\fC [inline]\fP"
+
+.SS "void gorynych::Command::set_allocated_blah (::std::string * blah)\fC [inline]\fP"
+
+.SS "void gorynych::Command::set_allocated_results (::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP * results)\fC [inline]\fP"
+
+.SS "void gorynych::Command::set_blah (const ::std::string & value)\fC [inline]\fP"
+
+.SS "void gorynych::Command::set_blah (const char * value)\fC [inline]\fP"
+
+.SS "void gorynych::Command::set_blah (const char * value, size_t size)\fC [inline]\fP"
+
+.SS "void gorynych::Command::set_command_type (::\fBgorynych::Command_Command_Type\fP value)\fC [inline]\fP"
+
+.SS "void gorynych::Command::SetCachedSize (int size) const\fC [private]\fP"
+
+.SS "void gorynych::Command::SharedCtor ()\fC [private]\fP"
+
+.SS "void gorynych::Command::SharedDtor ()\fC [private]\fP"
+
+.SS "void gorynych::Command::Swap (\fBCommand\fP * other)"
+
+.SS "void gorynych::Command::UnsafeMergeFrom (const \fBCommand\fP & from)\fC [private]\fP"
+
+.SH "Документация по друзьям класса и функциям, относящимся к классу"
+.PP 
+.SS "void protobuf_AddDesc_command_5fapi_2eproto_impl ()\fC [friend]\fP"
+
+.SS "void protobuf_AssignDesc_command_5fapi_2eproto ()\fC [friend]\fP"
+
+.SS "void protobuf_InitDefaults_command_5fapi_2eproto_impl ()\fC [friend]\fP"
+
+.SS "void protobuf_ShutdownFile_command_5fapi_2eproto ()\fC [friend]\fP"
+
+.SH "Данные класса"
+.PP 
+.SS "int gorynych::Command::_cached_size_\fC [mutable]\fP, \fC [private]\fP"
+
+.SS "::google::protobuf::internal::InternalMetadataWithArena gorynych::Command::_internal_metadata_\fC [private]\fP"
+
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::ADD_DISK_TO_TARGET\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_ADD_DISK_TO_TARGET
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::ADD_TARGET\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_ADD_TARGET
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::BIND_DISK_TO_SCST\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_BIND_DISK_TO_SCST
+.fi
+.SS "::google::protobuf::internal::ArenaStringPtr gorynych::Command::blah_\fC [private]\fP"
+
+.SS "int gorynych::Command::command_type_\fC [private]\fP"
+
+.SS "const int gorynych::Command::Command_Type_ARRAYSIZE\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_Command_Type_ARRAYSIZE
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::Command_Type_MAX\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_Command_Type_MAX
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::Command_Type_MIN\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_Command_Type_MIN
+.fi
+.SS "const int gorynych::Command::kBlahFieldNumber = 3\fC [static]\fP"
+
+.SS "const int gorynych::Command::kCommandTypeFieldNumber = 1\fC [static]\fP"
+
+.SS "const int gorynych::Command::kResultsFieldNumber = 2\fC [static]\fP"
+
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::NONE\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_NONE
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::REMOVE_DISCK_FROM_SCST\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_REMOVE_DISCK_FROM_SCST
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::REMOVE_LUN\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_REMOVE_LUN
+.fi
+.SS "const \fBCommand_Command_Type\fP gorynych::Command::REMOVE_TARGET\fC [static]\fP"
+\fBИнициализатор\fP
+.PP
+.nf
+=
+    Command_Command_Type_REMOVE_TARGET
+.fi
+.SS "::\fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP* gorynych::Command::results_\fC [private]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

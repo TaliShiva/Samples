@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="basic_element"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\3rd_party\;CMake Files\test\3rd_party\googletest\;CMake Files\test\3rd_party\googletest\googlemock\;CMake Files\test\3rd_party\googletest\googletest\;CMake Files\test\3rd_party\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="local_disk_queue_tests">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/local_disk_queue_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 local_disk_queue_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="local_disk_queue_tests/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/local_disk_queue_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 local_disk_queue_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_buffer_mock_tests">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/global_buffer_mock_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 global_buffer_mock_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_buffer_mock_tests/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/global_buffer_mock_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 global_buffer_mock_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="entity_statistics_buffer_tests">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/entity_statistics_buffer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 entity_statistics_buffer_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="entity_statistics_buffer_tests/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/entity_statistics_buffer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 entity_statistics_buffer_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExternalStatisticsTest">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/ExternalStatisticsTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExternalStatisticsTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExternalStatisticsTest/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/ExternalStatisticsTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExternalStatisticsTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw_queue_mirror_buffer_tests">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/hw_queue_mirror_buffer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw_queue_mirror_buffer_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw_queue_mirror_buffer_tests/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/hw_queue_mirror_buffer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw_queue_mirror_buffer_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="disk_port_tests">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/disk_port_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 disk_port_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="disk_port_tests/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/disk_port_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 disk_port_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="disk_performer_tests">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/disk_performer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 disk_performer_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="disk_performer_tests/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/disk_performer_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 disk_performer_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_element">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/basic_element" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_element"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_element/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/basic_element" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_element/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/include"/>
+					<Add directory="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/user/CLionProjects/basic_element/cmake-build-debug/test/3rd_party/googletest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/user/CLionProjects/basic_element/cmake-build-debug/report.pb.cc">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/cmake-build-debug/report.pb.cc.rule">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/cmake-build-debug/report.pb.h">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/TestProgram.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/RawDataWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/client/ClientDataAtomWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/client/ClientDataPacketWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/client/ClientDataStripeWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/physical/PhysicalRegion.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/ChecksumChainWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/ChecksumSolidDataWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/DataAtom.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/DataStripeWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/FullStripeWrite.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/SolidData.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/data_entity/system/SolidDataChain.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/DiskPerformer.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/DiskPort.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/hw_queue_mirror/HWQueueMirrorBuffer.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/hw_queue_mirror/HWQueueMirrorElement.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/local_disk_queue/LocalDiskQueue.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/local_disk_queue/LocalDiskQueueElement.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/statistics/EntityStatistics.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/disk_performer/statistics/EntityStatisticsBuffer.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/global_buffer/GlobalBufferMock.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/load/LoadParameters.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/load/LoadProfile.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/load/LoadTemplate.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/ExternalStatistics.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/IReport.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/ReportQueue.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/SensorsReport.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/StartReport.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/statistics/report/StopReport.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/include/utils/Packet.hpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/main.cpp">
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/TestProgram.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/RawDataWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/client/ClientDataAtomWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/client/ClientDataPacketWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/client/ClientDataStripeWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/physical/PhysicalRegion.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/ChecksumChainWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/ChecksumSolidDataWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/DataAtom.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/DataStripeWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/FullStripeWrite.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/SolidData.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/data_entity/system/SolidDataChain.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/DiskPerformer.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/DiskPort.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/hw_queue_mirror/HWQueueMirrorBuffer.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/hw_queue_mirror/HWQueueMirrorElement.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/local_disk_queue/LocalDiskQueue.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/local_disk_queue/LocalDiskQueueElement.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/statistics/EntityStatistics.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/disk_performer/statistics/EntityStatisticsBuffer.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/global_buffer/GlobalBufferMock.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/load/LoadParameters.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/load/LoadProfile.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/load/LoadTemplate.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/ExternalStatistics.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/ReportQueue.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/SensorsReport.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/StartReport.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/statistics/report/StopReport.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/src/utils/Packet.cpp">
+			<Option target="local_disk_queue_tests"/>
+			<Option target="global_buffer_mock_tests"/>
+			<Option target="entity_statistics_buffer_tests"/>
+			<Option target="ExternalStatisticsTest"/>
+			<Option target="hw_queue_mirror_buffer_tests"/>
+			<Option target="disk_port_tests"/>
+			<Option target="disk_performer_tests"/>
+			<Option target="basic_element"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/DiskPerformerTest/DiskPerformerTests.cpp">
+			<Option target="disk_performer_tests"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/DiskPortTest/DiskPortTests.cpp">
+			<Option target="disk_port_tests"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/EntityStatisticsBufferTest/EntityStatisticsBufferTest.cpp">
+			<Option target="entity_statistics_buffer_tests"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/ExternalStatisticsTest/ExternalStatisticsTest.cpp">
+			<Option target="ExternalStatisticsTest"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/GlobalBufferMockTests/GlobalBufferMockTests.cpp">
+			<Option target="global_buffer_mock_tests"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/HWQueueMirrorBufferTests/HWQueueMirrorBufferTests.cpp">
+			<Option target="hw_queue_mirror_buffer_tests"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/LocalDiskQueueTest/LocalDiskQueueTest.cpp">
+			<Option target="local_disk_queue_tests"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/CLionProjects/basic_element/test/3rd_party/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\3rd_party\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

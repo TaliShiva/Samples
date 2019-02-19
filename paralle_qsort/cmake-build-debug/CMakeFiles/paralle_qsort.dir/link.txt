@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/paralle_qsort.dir/main.cpp.o  -o paralle_qsort -pthread -O2 

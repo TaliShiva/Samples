@@ -1,0 +1,199 @@
+syntax = "proto2";
+package gorynych.transport.protobuf;
+message Command {
+    enum Command_Type {
+        COMMAND_NONE = 0;
+        COMMAND_OPEN = 1;
+        COMMAND_CLOSE_ALL = 2;
+        COMMAND_CREATE_ISCSI_TARGET = 3;
+        COMMAND_REMOVE_ISCSI_TARGET = 4;
+        COMMAND_REMOVE_DISK_FROM_SCST = 5;
+        COMMAND_ADD_DISK_TO_SCST = 6;
+        COMMAND_CREATE_RAID = 7;
+        COMMAND_DESTROY_RAID = 8;
+        COMMAND_CREATE_LVM = 9;
+        COMMAND_DESTROY_LVM = 10;
+        COMMAND_CREATE_LOGICAL_VOLUME = 12;
+        COMMAND_CREATE_CACHED_DISK = 13;
+        COMMAND_DELETE_LOGICAL_VOLUME = 15;
+        COMMAND_CONNECT_DEVICE_TO_ISCSI_TARGET = 16;
+        COMMAND_DISCONNECT_DEVICE_TO_ISCSI_TARGET = 17;
+        COMMAND_DISABLE_ISCSI_TARGET = 18;
+        COMMAND_LIST_RAID = 19;
+        COMMAND_LIST_LOGICAL_VOLUME = 20;
+        COMMAND_LIST_SCST = 21;
+        COMMAND_ENABLE_ISCSI_TARGET = 22;
+        COMMAND_DETACH_CACHED_DISK = 23;
+    }
+    required Command_Type type = 1;
+    message Command_OPEN {
+        optional string device_path = 1;
+        optional string target_wwn = 2;
+        optional uint32 lun = 3;
+    }
+    optional Command_OPEN open = 2;
+
+    message Command_CLOSE {
+        optional string device_path = 1;
+        optional string target_wwn = 2;
+        optional uint32 lun = 3;
+    }
+    optional Command_CLOSE close = 3;
+
+    message Command_CREATE_ISCSI_TARGET {
+        optional string target_name = 1;
+    }
+    optional Command_CREATE_ISCSI_TARGET create_iscsi_target = 4;
+
+    message Command_ADD_DISK_TO_SCST {
+        optional string device_path = 1;
+    }
+    optional Command_ADD_DISK_TO_SCST add_disk_to_scst = 5;
+
+    message Command_REMOVE_ISCSI_TARGET {
+        optional string target_name = 1;
+    }
+    optional Command_REMOVE_ISCSI_TARGET remove_iscsi_target = 6;
+
+
+    message Command_REMOVE_DISK_FROM_SCST {
+        optional string device_path = 1;
+    }
+    optional Command_REMOVE_DISK_FROM_SCST remove_disk_from_scst = 7;
+
+    message Command_CREATE_RAID {
+        optional string raid_path = 1;
+        optional uint32 raid_level = 2;
+        optional uint32 devices_count = 3;
+        repeated string device = 4;
+    }
+    optional Command_CREATE_RAID create_raid = 8;
+
+    message Command_DESTROY_RAID {
+        optional string raid_path = 1;
+        repeated string device = 2;
+    }
+    optional Command_DESTROY_RAID destroy_raid = 9;
+
+    message Command_CREATE_LVM {
+        optional string volume_group_name = 1;
+        optional string device_path = 2;
+    }
+    optional Command_CREATE_LVM create_lvm = 10;
+
+    message Command_DESTROY_LVM {
+        optional string volume_group_name = 1;
+        optional string device_path = 2;
+    }
+    optional Command_DESTROY_LVM destroy_lvm = 11;
+
+    message Command_CREATE_LOGICAL_VOLUME {
+        optional string logical_volume_name = 1;
+        optional string logical_volume_size = 2;
+        optional string parent_volume_group_name = 3;
+    }
+    optional Command_CREATE_LOGICAL_VOLUME create_logical_volume = 12;
+
+    message Command_CREATE_CACHED_DISK {
+        optional string base_device_path = 1;
+        optional string caching_device_path = 2;
+        optional string caching_algorithm = 3;
+        optional string caching_mode = 4;
+    }
+    optional Command_CREATE_CACHED_DISK create_caching_device = 13;
+
+    message Command_DELETE_LOGICAL_VOLUME {
+        optional string volume_group_name = 1;
+        optional string logical_volume_name = 2;
+    }
+    optional Command_DELETE_LOGICAL_VOLUME delete_logical_volume = 15;
+
+    message Command_DISABLE_ISCSI_TARGET {
+        optional string iscsi_target_name = 1;
+    }
+    optional Command_DISABLE_ISCSI_TARGET disable_iscsi_target = 18;
+
+    message Command_CONNECT_DEVICE_TO_ISCSI_TARGET{
+        optional string device_path = 1;
+        optional string target_wwn = 2;
+        optional uint32 lun = 3;
+    }
+    optional Command_CONNECT_DEVICE_TO_ISCSI_TARGET connect_device_to_iscsi_target = 16;
+
+    message Command_DISCONNECT_DEVICE_TO_ISCSI_TARGET{
+        optional string device_path = 1;
+        optional string target_wwn = 2;
+        optional uint32 lun = 3;
+    }
+    optional Command_DISCONNECT_DEVICE_TO_ISCSI_TARGET disconnect_device_to_iscsi_target = 17;
+
+    message Command_DETACH_CACHED_DISK {
+        optional string base_device_path = 1;
+        optional string caching_device_path = 2;
+    }
+    optional Command_DETACH_CACHED_DISK detach_caching_device = 20;
+
+
+    message Command_ENABLE_ISCSI_TARGET{
+        optional string target_name = 1;
+    }
+    optional Command_ENABLE_ISCSI_TARGET enable_iscsi_target = 19;
+
+}
+message Response {
+    enum Response_Type {
+        RESPONSE_NONE = 0;
+        RESPONSE_TEXT = 1;
+        RESPONSE_LIST_RAID = 2;
+        RESPONSE_LIST_LOGICAL_VOLUME = 3;
+        RESPONSE_LIST_SCST = 4;
+
+    }
+    required Response_Type type = 1;
+    message Response_TEXT {
+        optional bool success = 1;
+        optional string logic_error_message = 2;
+        optional string system_error_message = 3;
+    }
+    optional Response_TEXT text = 2;
+
+    message Response_LIST_RAID {
+        message RAID {
+            optional string raid_name = 1;
+            optional string raid_level = 2;
+            optional string raid_size = 3;
+            optional string volume_group_name = 4;
+            optional string volume_group_used_percentile = 5;
+            repeated string raid_devices = 6;
+        }
+        repeated RAID raid_item = 5;
+    }
+    optional Response_LIST_RAID list_raid = 3;
+
+    message Response_LIST_LOGICAL_VOLUME {
+        message LOGICAL_VOLUME{
+            optional string logical_volume_name = 1;
+            optional string logical_volume_size = 2;
+            optional string volume_group_name = 3;
+            optional string vdisk_name = 4;
+            optional bool cached = 5;
+            optional string cached_device_name = 6;
+        }
+        repeated LOGICAL_VOLUME logical_volume_item = 1;
+    }
+    optional Response_LIST_LOGICAL_VOLUME list_logical_volume = 4;
+
+    message Response_LIST_SCST {
+        message TARGET {
+            message LUN {
+                optional uint32 lun_number = 1;
+                optional string vdisk_name = 2;
+            }
+            optional string target_name = 1;
+            optional bool enabled = 2;
+            repeated LUN lun_item = 3;
+        }
+        repeated TARGET target_item = 1;
+    }
+    optional Response_LIST_SCST list_scst = 5;
+}

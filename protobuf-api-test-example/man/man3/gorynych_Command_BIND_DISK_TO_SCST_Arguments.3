@@ -1,0 +1,408 @@
+.TH "gorynych::Command_BIND_DISK_TO_SCST_Arguments" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gorynych::Command_BIND_DISK_TO_SCST_Arguments \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <command_api\&.pb\&.h>\fP
+.PP
+Базовые классы:Message\&.
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP ()"
+.br
+.ti -1c
+.RI "virtual \fB~Command_BIND_DISK_TO_SCST_Arguments\fP ()"
+.br
+.ti -1c
+.RI "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP &from)"
+.br
+.ti -1c
+.RI "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP & \fBoperator=\fP (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP &from)"
+.br
+.ti -1c
+.RI "void \fBSwap\fP (\fBCommand_BIND_DISK_TO_SCST_Arguments\fP *other)"
+.br
+.ti -1c
+.RI "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP * \fBNew\fP () const "
+.br
+.ti -1c
+.RI "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP * \fBNew\fP (::google::protobuf::Arena *arena) const "
+.br
+.ti -1c
+.RI "void \fBCopyFrom\fP (const ::google::protobuf::Message &from)"
+.br
+.ti -1c
+.RI "void \fBMergeFrom\fP (const ::google::protobuf::Message &from)"
+.br
+.ti -1c
+.RI "void \fBCopyFrom\fP (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP &from)"
+.br
+.ti -1c
+.RI "void \fBMergeFrom\fP (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP &from)"
+.br
+.ti -1c
+.RI "void \fBClear\fP ()"
+.br
+.ti -1c
+.RI "bool \fBIsInitialized\fP () const "
+.br
+.ti -1c
+.RI "size_t \fBByteSizeLong\fP () const "
+.br
+.ti -1c
+.RI "bool \fBMergePartialFromCodedStream\fP (::google::protobuf::io::CodedInputStream *input)"
+.br
+.ti -1c
+.RI "void \fBSerializeWithCachedSizes\fP (::google::protobuf::io::CodedOutputStream *output) const "
+.br
+.ti -1c
+.RI "::google::protobuf::uint8 * \fBInternalSerializeWithCachedSizesToArray\fP (bool deterministic,::google::protobuf::uint8 *output) const "
+.br
+.ti -1c
+.RI "::google::protobuf::uint8 * \fBSerializeWithCachedSizesToArray\fP (::google::protobuf::uint8 *output) const "
+.br
+.ti -1c
+.RI "int \fBGetCachedSize\fP () const "
+.br
+.ti -1c
+.RI "::google::protobuf::Metadata \fBGetMetadata\fP () const "
+.br
+.ti -1c
+.RI "void \fBclear_url\fP ()"
+.br
+.ti -1c
+.RI "const ::std::string & \fBurl\fP () const "
+.br
+.ti -1c
+.RI "void \fBset_url\fP (const ::std::string &value)"
+.br
+.ti -1c
+.RI "void \fBset_url\fP (const char *value)"
+.br
+.ti -1c
+.RI "void \fBset_url\fP (const char *value, size_t size)"
+.br
+.ti -1c
+.RI "::std::string * \fBmutable_url\fP ()"
+.br
+.ti -1c
+.RI "::std::string * \fBrelease_url\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_allocated_url\fP (::std::string *\fBurl\fP)"
+.br
+.ti -1c
+.RI "void \fBclear_title\fP ()"
+.br
+.ti -1c
+.RI "const ::std::string & \fBtitle\fP () const "
+.br
+.ti -1c
+.RI "void \fBset_title\fP (const ::std::string &value)"
+.br
+.ti -1c
+.RI "void \fBset_title\fP (const char *value)"
+.br
+.ti -1c
+.RI "void \fBset_title\fP (const char *value, size_t size)"
+.br
+.ti -1c
+.RI "::std::string * \fBmutable_title\fP ()"
+.br
+.ti -1c
+.RI "::std::string * \fBrelease_title\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_allocated_title\fP (::std::string *\fBtitle\fP)"
+.br
+.ti -1c
+.RI "int \fBsnippets_size\fP () const "
+.br
+.ti -1c
+.RI "void \fBclear_snippets\fP ()"
+.br
+.ti -1c
+.RI "const ::std::string & \fBsnippets\fP (int index) const "
+.br
+.ti -1c
+.RI "::std::string * \fBmutable_snippets\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBset_snippets\fP (int index, const ::std::string &value)"
+.br
+.ti -1c
+.RI "void \fBset_snippets\fP (int index, const char *value)"
+.br
+.ti -1c
+.RI "void \fBset_snippets\fP (int index, const char *value, size_t size)"
+.br
+.ti -1c
+.RI "::std::string * \fBadd_snippets\fP ()"
+.br
+.ti -1c
+.RI "void \fBadd_snippets\fP (const ::std::string &value)"
+.br
+.ti -1c
+.RI "void \fBadd_snippets\fP (const char *value)"
+.br
+.ti -1c
+.RI "void \fBadd_snippets\fP (const char *value, size_t size)"
+.br
+.ti -1c
+.RI "const ::google::protobuf::RepeatedPtrField< ::std::string > & \fBsnippets\fP () const "
+.br
+.ti -1c
+.RI "::google::protobuf::RepeatedPtrField< ::std::string > * \fBmutable_snippets\fP ()"
+.br
+.in -1c
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "static const ::google::protobuf::Descriptor * \fBdescriptor\fP ()"
+.br
+.ti -1c
+.RI "static const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & \fBdefault_instance\fP ()"
+.br
+.ti -1c
+.RI "static const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP * \fBinternal_default_instance\fP ()"
+.br
+.in -1c
+.SS "Статические открытые данные"
+
+.in +1c
+.ti -1c
+.RI "static const int \fBkUrlFieldNumber\fP = 1"
+.br
+.ti -1c
+.RI "static const int \fBkTitleFieldNumber\fP = 2"
+.br
+.ti -1c
+.RI "static const int \fBkSnippetsFieldNumber\fP = 3"
+.br
+.in -1c
+.SS "Закрытые члены"
+
+.in +1c
+.ti -1c
+.RI "void \fBSharedCtor\fP ()"
+.br
+.ti -1c
+.RI "void \fBSharedDtor\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetCachedSize\fP (int size) const "
+.br
+.ti -1c
+.RI "void \fBInternalSwap\fP (\fBCommand_BIND_DISK_TO_SCST_Arguments\fP *other)"
+.br
+.ti -1c
+.RI "void \fBUnsafeMergeFrom\fP (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP &from)"
+.br
+.ti -1c
+.RI "inline::google::protobuf::Arena * \fBGetArenaNoVirtual\fP () const "
+.br
+.ti -1c
+.RI "void * \fBMaybeArenaPtr\fP () const "
+.br
+.ti -1c
+.RI "void \fBInitAsDefaultInstance\fP ()"
+.br
+.in -1c
+.SS "Закрытые данные"
+
+.in +1c
+.ti -1c
+.RI "::google::protobuf::internal::InternalMetadataWithArena \fB_internal_metadata_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::RepeatedPtrField< ::std::string > \fBsnippets_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ArenaStringPtr \fBurl_\fP"
+.br
+.ti -1c
+.RI "::google::protobuf::internal::ArenaStringPtr \fBtitle_\fP"
+.br
+.ti -1c
+.RI "int \fB_cached_size_\fP"
+.br
+.in -1c
+.SS "Друзья"
+
+.in +1c
+.ti -1c
+.RI "void \fBprotobuf_InitDefaults_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AddDesc_command_5fapi_2eproto_impl\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_AssignDesc_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBprotobuf_ShutdownFile_command_5fapi_2eproto\fP ()"
+.br
+.in -1c
+.SH "Конструктор(ы)"
+.PP 
+.SS "gorynych::Command_BIND_DISK_TO_SCST_Arguments::Command_BIND_DISK_TO_SCST_Arguments ()"
+
+.SS "gorynych::Command_BIND_DISK_TO_SCST_Arguments::~Command_BIND_DISK_TO_SCST_Arguments ()\fC [virtual]\fP"
+
+.SS "gorynych::Command_BIND_DISK_TO_SCST_Arguments::Command_BIND_DISK_TO_SCST_Arguments (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & from)"
+
+.SH "Методы"
+.PP 
+.SS "std::string * gorynych::Command_BIND_DISK_TO_SCST_Arguments::add_snippets ()\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::add_snippets (const ::std::string & value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::add_snippets (const char * value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::add_snippets (const char * value, size_t size)\fC [inline]\fP"
+
+.SS "size_t gorynych::Command_BIND_DISK_TO_SCST_Arguments::ByteSizeLong () const"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::Clear ()"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::clear_snippets ()\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::clear_title ()\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::clear_url ()\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::CopyFrom (const ::google::protobuf::Message & from)"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::CopyFrom (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & from)"
+
+.SS "const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & gorynych::Command_BIND_DISK_TO_SCST_Arguments::default_instance ()\fC [static]\fP"
+
+.SS "const ::google::protobuf::Descriptor * gorynych::Command_BIND_DISK_TO_SCST_Arguments::descriptor ()\fC [static]\fP"
+
+.SS "inline ::google::protobuf::Arena* gorynych::Command_BIND_DISK_TO_SCST_Arguments::GetArenaNoVirtual () const\fC [inline]\fP, \fC [private]\fP"
+
+.SS "int gorynych::Command_BIND_DISK_TO_SCST_Arguments::GetCachedSize () const\fC [inline]\fP"
+
+.SS "google::protobuf::Metadata gorynych::Command_BIND_DISK_TO_SCST_Arguments::GetMetadata () const"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::InitAsDefaultInstance ()\fC [private]\fP"
+
+.SS "const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP * gorynych::Command_BIND_DISK_TO_SCST_Arguments::internal_default_instance ()\fC [inline]\fP, \fC [static]\fP"
+
+.SS "google::protobuf::uint8 * gorynych::Command_BIND_DISK_TO_SCST_Arguments::InternalSerializeWithCachedSizesToArray (bool deterministic, ::google::protobuf::uint8 * output) const"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::InternalSwap (\fBCommand_BIND_DISK_TO_SCST_Arguments\fP * other)\fC [private]\fP"
+
+.SS "bool gorynych::Command_BIND_DISK_TO_SCST_Arguments::IsInitialized () const"
+
+.SS "void* gorynych::Command_BIND_DISK_TO_SCST_Arguments::MaybeArenaPtr () const\fC [inline]\fP, \fC [private]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::MergeFrom (const ::google::protobuf::Message & from)"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::MergeFrom (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & from)"
+
+.SS "bool gorynych::Command_BIND_DISK_TO_SCST_Arguments::MergePartialFromCodedStream (::google::protobuf::io::CodedInputStream * input)"
+
+.SS "std::string * gorynych::Command_BIND_DISK_TO_SCST_Arguments::mutable_snippets (int index)\fC [inline]\fP"
+
+.SS "google::protobuf::RepeatedPtrField<::std::string > * gorynych::Command_BIND_DISK_TO_SCST_Arguments::mutable_snippets ()\fC [inline]\fP"
+
+.SS "std::string * gorynych::Command_BIND_DISK_TO_SCST_Arguments::mutable_title ()\fC [inline]\fP"
+
+.SS "std::string * gorynych::Command_BIND_DISK_TO_SCST_Arguments::mutable_url ()\fC [inline]\fP"
+
+.SS "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP* gorynych::Command_BIND_DISK_TO_SCST_Arguments::New () const\fC [inline]\fP"
+
+.SS "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP * gorynych::Command_BIND_DISK_TO_SCST_Arguments::New (::google::protobuf::Arena * arena) const"
+
+.SS "\fBCommand_BIND_DISK_TO_SCST_Arguments\fP& gorynych::Command_BIND_DISK_TO_SCST_Arguments::operator= (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & from)\fC [inline]\fP"
+
+.SS "std::string * gorynych::Command_BIND_DISK_TO_SCST_Arguments::release_title ()\fC [inline]\fP"
+
+.SS "std::string * gorynych::Command_BIND_DISK_TO_SCST_Arguments::release_url ()\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::SerializeWithCachedSizes (::google::protobuf::io::CodedOutputStream * output) const"
+
+.SS "::google::protobuf::uint8* gorynych::Command_BIND_DISK_TO_SCST_Arguments::SerializeWithCachedSizesToArray (::google::protobuf::uint8 * output) const\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_allocated_title (::std::string * title)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_allocated_url (::std::string * url)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_snippets (int index, const ::std::string & value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_snippets (int index, const char * value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_snippets (int index, const char * value, size_t size)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_title (const ::std::string & value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_title (const char * value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_title (const char * value, size_t size)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_url (const ::std::string & value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_url (const char * value)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::set_url (const char * value, size_t size)\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::SetCachedSize (int size) const\fC [private]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::SharedCtor ()\fC [private]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::SharedDtor ()\fC [private]\fP"
+
+.SS "const ::std::string & gorynych::Command_BIND_DISK_TO_SCST_Arguments::snippets (int index) const\fC [inline]\fP"
+
+.SS "const ::google::protobuf::RepeatedPtrField<::std::string > & gorynych::Command_BIND_DISK_TO_SCST_Arguments::snippets () const\fC [inline]\fP"
+
+.SS "int gorynych::Command_BIND_DISK_TO_SCST_Arguments::snippets_size () const\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::Swap (\fBCommand_BIND_DISK_TO_SCST_Arguments\fP * other)"
+
+.SS "const ::std::string & gorynych::Command_BIND_DISK_TO_SCST_Arguments::title () const\fC [inline]\fP"
+
+.SS "void gorynych::Command_BIND_DISK_TO_SCST_Arguments::UnsafeMergeFrom (const \fBCommand_BIND_DISK_TO_SCST_Arguments\fP & from)\fC [private]\fP"
+
+.SS "const ::std::string & gorynych::Command_BIND_DISK_TO_SCST_Arguments::url () const\fC [inline]\fP"
+
+.SH "Документация по друзьям класса и функциям, относящимся к классу"
+.PP 
+.SS "void protobuf_AddDesc_command_5fapi_2eproto_impl ()\fC [friend]\fP"
+
+.SS "void protobuf_AssignDesc_command_5fapi_2eproto ()\fC [friend]\fP"
+
+.SS "void protobuf_InitDefaults_command_5fapi_2eproto_impl ()\fC [friend]\fP"
+
+.SS "void protobuf_ShutdownFile_command_5fapi_2eproto ()\fC [friend]\fP"
+
+.SH "Данные класса"
+.PP 
+.SS "int gorynych::Command_BIND_DISK_TO_SCST_Arguments::_cached_size_\fC [mutable]\fP, \fC [private]\fP"
+
+.SS "::google::protobuf::internal::InternalMetadataWithArena gorynych::Command_BIND_DISK_TO_SCST_Arguments::_internal_metadata_\fC [private]\fP"
+
+.SS "const int gorynych::Command_BIND_DISK_TO_SCST_Arguments::kSnippetsFieldNumber = 3\fC [static]\fP"
+
+.SS "const int gorynych::Command_BIND_DISK_TO_SCST_Arguments::kTitleFieldNumber = 2\fC [static]\fP"
+
+.SS "const int gorynych::Command_BIND_DISK_TO_SCST_Arguments::kUrlFieldNumber = 1\fC [static]\fP"
+
+.SS "::google::protobuf::RepeatedPtrField< ::std::string> gorynych::Command_BIND_DISK_TO_SCST_Arguments::snippets_\fC [private]\fP"
+
+.SS "::google::protobuf::internal::ArenaStringPtr gorynych::Command_BIND_DISK_TO_SCST_Arguments::title_\fC [private]\fP"
+
+.SS "::google::protobuf::internal::ArenaStringPtr gorynych::Command_BIND_DISK_TO_SCST_Arguments::url_\fC [private]\fP"
+
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

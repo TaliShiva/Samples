@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/open_and_close_files.dir/main.cpp.o  -o open_and_close_files 

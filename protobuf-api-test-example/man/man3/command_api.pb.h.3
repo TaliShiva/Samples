@@ -1,0 +1,114 @@
+.TH "cmake-build-debug/command_api.pb.h" 3 "Пн 21 Авг 2017" "Ceph_analyze" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+cmake-build-debug/command_api.pb.h \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <string>\fP
+.br
+\fC#include <google/protobuf/stubs/common\&.h>\fP
+.br
+\fC#include <google/protobuf/arena\&.h>\fP
+.br
+\fC#include <google/protobuf/arenastring\&.h>\fP
+.br
+\fC#include <google/protobuf/generated_message_util\&.h>\fP
+.br
+\fC#include <google/protobuf/metadata\&.h>\fP
+.br
+\fC#include <google/protobuf/message\&.h>\fP
+.br
+\fC#include <google/protobuf/repeated_field\&.h>\fP
+.br
+\fC#include <google/protobuf/extension_set\&.h>\fP
+.br
+\fC#include <google/protobuf/generated_enum_reflection\&.h>\fP
+.br
+\fC#include <google/protobuf/unknown_field_set\&.h>\fP
+.br
+
+.SS "Классы"
+
+.in +1c
+.ti -1c
+.RI "class \fBgorynych::Command_BIND_DISK_TO_SCST_Arguments\fP"
+.br
+.ti -1c
+.RI "class \fBgorynych::Command\fP"
+.br
+.ti -1c
+.RI "class \fBgorynych::Response\fP"
+.br
+.ti -1c
+.RI "struct \fBgoogle::protobuf::is_proto_enum< ::gorynych::Command_Command_Type >\fP"
+.br
+.in -1c
+.SS "Пространства имен"
+
+.in +1c
+.ti -1c
+.RI " \fBgorynych\fP"
+.br
+.ti -1c
+.RI " \fBgoogle\fP"
+.br
+.ti -1c
+.RI " \fBgoogle::protobuf\fP"
+.br
+.in -1c
+.SS "Перечисления"
+
+.in +1c
+.ti -1c
+.RI "enum \fBgorynych::Command_Command_Type\fP { \fBgorynych::Command_Command_Type_NONE\fP = 0, \fBgorynych::Command_Command_Type_BIND_DISK_TO_SCST\fP = 1, \fBgorynych::Command_Command_Type_ADD_TARGET\fP = 2, \fBgorynych::Command_Command_Type_ADD_DISK_TO_TARGET\fP = 3, \fBgorynych::Command_Command_Type_REMOVE_LUN\fP = 4, \fBgorynych::Command_Command_Type_REMOVE_TARGET\fP = 5, \fBgorynych::Command_Command_Type_REMOVE_DISCK_FROM_SCST\fP = 6, \fBgorynych::Command_Command_Type_Command_Command_Type_INT_MIN_SENTINEL_DO_NOT_USE_\fP = ::google::protobuf::kint32min, \fBgorynych::Command_Command_Type_Command_Command_Type_INT_MAX_SENTINEL_DO_NOT_USE_\fP = ::google::protobuf::kint32max }"
+.br
+.in -1c
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBgorynych::protobuf_AddDesc_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBgorynych::protobuf_InitDefaults_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "void \fBgorynych::protobuf_AssignDesc_command_5fapi_2eproto\fP () GOOGLE_ATTRIBUTE_COLD"
+.br
+.ti -1c
+.RI "void \fBgorynych::protobuf_ShutdownFile_command_5fapi_2eproto\fP ()"
+.br
+.ti -1c
+.RI "bool \fBgorynych::Command_Command_Type_IsValid\fP (int value)"
+.br
+.ti -1c
+.RI "const ::google::protobuf::EnumDescriptor * \fBgorynych::Command_Command_Type_descriptor\fP ()"
+.br
+.ti -1c
+.RI "const ::std::string & \fBgorynych::Command_Command_Type_Name\fP (Command_Command_Type value)"
+.br
+.ti -1c
+.RI "bool \fBgorynych::Command_Command_Type_Parse\fP (const ::std::string &name, Command_Command_Type *value)"
+.br
+.ti -1c
+.RI "template<> const EnumDescriptor * \fBgoogle::protobuf::GetEnumDescriptor< ::gorynych::Command_Command_Type >\fP ()"
+.br
+.in -1c
+.SS "Переменные"
+
+.in +1c
+.ti -1c
+.RI "const Command_Command_Type \fBgorynych::Command_Command_Type_Command_Type_MIN\fP = Command_Command_Type_NONE"
+.br
+.ti -1c
+.RI "const Command_Command_Type \fBgorynych::Command_Command_Type_Command_Type_MAX\fP = Command_Command_Type_REMOVE_DISCK_FROM_SCST"
+.br
+.ti -1c
+.RI "const int \fBgorynych::Command_Command_Type_Command_Type_ARRAYSIZE\fP = Command_Command_Type_Command_Type_MAX + 1"
+.br
+.in -1c
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Ceph_analyze из исходного текста\&.

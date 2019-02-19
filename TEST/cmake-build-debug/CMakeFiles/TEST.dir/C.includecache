@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/TEST/library.c
+sys/types.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+unistd.h
+-
+string.h
+-
+errno.h
+-
+

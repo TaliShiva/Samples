@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/paralle_qsort/main.cpp
+iostream
+-
+list
+-
+future
+-
+stack
+-
+chrono
+-
+vector
+-
+algorithm
+-
+

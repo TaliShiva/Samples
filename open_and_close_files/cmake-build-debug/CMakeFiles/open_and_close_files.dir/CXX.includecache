@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/CLionProjects/open_and_close_files/human.hpp
+string
+-
+sstream
+-
+
+/home/user/CLionProjects/open_and_close_files/main.cpp
+iostream
+-
+fstream
+-
+human.hpp
+/home/user/CLionProjects/open_and_close_files/human.hpp
+
